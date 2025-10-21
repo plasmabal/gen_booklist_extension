@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>GenBooklist</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, "Noto Sans", Arial, "Apple Color Emoji"; margin: 12px; width: 340px; }
+      .row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+      .btn { padding: 6px 10px; border: 1px solid #ccc; border-radius: 8px; cursor: pointer; background: #f7f7f7; }
+      .btn:disabled { opacity: 0.6; cursor: not-allowed; }
+      .hint { color: #666; font-size: 12px; margin: 6px 0 10px; }
+      .ok { color: #0a7d13; }
+      pre { background: #f3f3f5; padding: 8px; border-radius: 8px; max-height: 200px; overflow: auto; white-space: pre-wrap; }
+      label { font-size: 14px; }
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <strong>GenBooklist</strong>
+      <button id="collectBtn" class="btn">Collect & Copy</button>
+    </div>
+
+    <div class="row">
+      <label><input type="checkbox" id="trimChk" /> 裁掉副標（以「：」起之後移除）</label>
+    </div>
+
+    <div id="status" class="hint"></div>
+
+    <div id="previewWrap" style="display:none;">
+      <div class="row"><strong>預覽（前 10 筆）</strong></div>
+      <pre id="preview"></pre>
+      <div class="hint" id="count"></div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
