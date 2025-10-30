@@ -1,13 +1,11 @@
 {
   "manifest_version": 3,
   "name": "GenBooklist",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate book list from various book sites.",
   "permissions": [
     "contextMenus",
     "storage",
-    "activeTab",
-    "scripting",
     "clipboardWrite"
   ],
   "host_permissions": [
