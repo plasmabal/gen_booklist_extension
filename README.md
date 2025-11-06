@@ -15,9 +15,7 @@ The original was a Tampermonkey script — this version is a fully standalone Ch
 
 You can install the extension directly from the Chrome Web Store:
 
-👉 [**gen_booklist_extension (Chrome Web Store)**](https://chrome.google.com/webstore/detail/)
-
-*(URL will be updated after publication.)*
+👉 [**GenBooklist (Chrome Web Store)**](https://chromewebstore.google.com/detail/genbooklist/japbpdbkcdnjpgealpdkdhglpkogiifn)
 
 ---
 
