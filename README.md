@@ -53,7 +53,7 @@ You’ll see your complete book list ready for further processing.
 
 | Site | URL | Notes |
 |------|-----|-------|
-| Readmoo | https://read.readmoo.com/ | 書櫃 > 書籍、列表 |
+| Readmoo | https://next.readmoo.com/read | 書櫃 > 書籍、列表 |
 | Kobo | https://www.kobo.com/tw/zh/library |  |
 | Books | https://viewer-ebook.books.com.tw/viewer/index.html |  |
 | HyRead | http://ebook.hyread.com.tw/Template/store/member/my_bookcase_column_list.jsp | 列表頁限定 |

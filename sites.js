@@ -2,7 +2,7 @@
   const Sites = [
     { // Readmoo
       name: "Readmoo",
-      detect: (host) => host === "read.readmoo.com",
+      detect: (host) => host === "next.readmoo.com",
       collect: (doc) => {
         const list = doc.getElementsByClassName("library-item-info");
         return [...list].map(item => ({

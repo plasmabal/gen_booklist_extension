@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "GenBooklist",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Generate book list from various book sites.",
   "permissions": [
     "contextMenus",
@@ -9,7 +9,7 @@
     "clipboardWrite"
   ],
   "host_permissions": [
-    "https://read.readmoo.com/*",
+    "https://next.readmoo.com/*",
     "https://www.kobo.com/tw/zh/library*",
     "https://viewer-ebook.books.com.tw/viewer/*",
     "https://ebook.hyread.com.tw/Template/store/member/my_bookcase_column_list.jsp*",
